@@ -11,8 +11,14 @@ namespace SeafoodMarket.Models
     public class Newsletter
     {
         [Key]
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
         public virtual ICollection<Visitor> Visitors { get; set; }
+
+        public Newsletter()
+        {
+
+        }
     }
 }
