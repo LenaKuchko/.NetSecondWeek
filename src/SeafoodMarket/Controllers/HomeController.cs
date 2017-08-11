@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SeafoodMarket.ViewModels;
 using SeafoodMarket.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SeafoodMarket.Controllers
 {
@@ -28,25 +29,20 @@ namespace SeafoodMarket.Controllers
             return View();
         }
 
-        
+        [HttpPost]
+        public IActionResult SignUpForNews(SignUpForNewsViewModel model)
+        {
+            var newsletter = new Newsletter(model.Email, model.Preference);
+            db.Newsletters.Add(newsletter);
+            db.SaveChanges();
+            return View("Confirmation", newsletter);
+        }
 
-        //public IActionResult About()
-        //{
-        //    ViewData["Message"] = "Your application description page.";
 
-        //    return View();
-        //}
-
-        //public IActionResult Contact()
-        //{
-        //    ViewData["Message"] = "Your contact page.";
-
-        //    return View();
-        //}
-
-        //public IActionResult Error()
-        //{
-        //    return View();
-        //}
+        //[Authorize]
+        public IActionResult ShowMailingList()
+        {
+            return View("ShowMailingList", db.Newsletters.ToList());
+        }
     }
 }

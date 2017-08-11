@@ -1,1 +1,19 @@
-﻿
+﻿@using SeafoodMarket.ViewModels
+@model SignUpForNewsViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("SignUpForNews", "Home", FormMethod.Post))
+{
+
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email)
+
+    @Html.LabelFor(m => m.Preference)
+    @Html.TextBoxFor(m => m.Preference)
+
+    <input type="submit" value="Sign up" class="btn btn-default" />
+}

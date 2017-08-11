@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SeafoodMarket.ViewModels
 {
-    public class SignUpForNewsModel
+    public class SignUpForNewsViewModel
     {
         [Required]
         [EmailAddress]

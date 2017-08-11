@@ -1,0 +1,10 @@
+﻿@model IEnumerable<SeafoodMarket.Models.Newsletter>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach(var item in Model)
+{
+    <h2>@Html.DisplayFor(model => item.Email)</h2>
+}

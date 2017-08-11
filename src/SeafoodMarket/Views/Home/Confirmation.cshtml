@@ -1,0 +1,14 @@
+﻿@model SeafoodMarket.Models.Newsletter
+
+@{
+    ViewData["Title"] = "To Do List - Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <h2>Congradulations, you are singed up for our news</h2>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.Email): @Html.DisplayFor(model => model.Email)</p>
+     <p>@Html.DisplayNameFor(model => model.Preference): @Html.DisplayFor(model => model.Preference)</p>
+
+</body>
