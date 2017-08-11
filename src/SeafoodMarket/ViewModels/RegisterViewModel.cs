@@ -23,7 +23,5 @@ namespace SeafoodMarket.ViewModels
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        [Display(Name = "Enter your favorite kind of seafood")]
-        public string Preference { get; set; }
     }
 }

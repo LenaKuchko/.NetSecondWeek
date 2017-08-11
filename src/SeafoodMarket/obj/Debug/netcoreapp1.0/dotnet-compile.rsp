@@ -221,8 +221,13 @@ C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMa
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811152558_Initial.Designer.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811154317_AddPreferenceColumn.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811154317_AddPreferenceColumn.Designer.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811172536_AddVisitor.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811172536_AddVisitor.Designer.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationDbContext.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationUser.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\Newsletter.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\Visitor.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\LoginViewModel.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\RegisterViewModel.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\SignUpForNewsModel.cs
