@@ -28,20 +28,7 @@ namespace SeafoodMarket.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult SignUpForNews(SignUpForNewsModel model)
-        {
-            var visitor = new Visitor(model.Email, model.Preference);
-            var news = new Newsletter();
-            visitor.newsletter = news;
-
-            //db.Visitors.Add(visitor);
-            db.SaveChanges();
-
-            
-
-            return View();
-        }
+        
 
         //public IActionResult About()
         //{

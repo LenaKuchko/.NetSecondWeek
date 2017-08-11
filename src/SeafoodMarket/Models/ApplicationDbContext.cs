@@ -9,8 +9,8 @@ namespace SeafoodMarket.Models
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Visitor> Visitors { get; set; }
-        public DbSet<Newsletter> Newsletters { get; set; }
+        //public DbSet<Visitor> Visitors { get; set; }
+        //public DbSet<Newsletter> Newsletters { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=seafoodMarket;integrated security=True");
