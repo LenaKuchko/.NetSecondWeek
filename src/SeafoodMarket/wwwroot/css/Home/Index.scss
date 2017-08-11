@@ -1,3 +1,33 @@
-﻿body {
-    background-color: salmon;
+﻿
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-image: url(http://superiorgrocers.com/_images/content/uploads/2013-11/11-01_Seafood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+    text-align: right;
+    margin-right: -50px;
+    li {
+        display: inline;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+}
+a:link, a:visited {
+   
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+   
 }

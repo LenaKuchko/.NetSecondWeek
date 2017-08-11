@@ -18,12 +18,27 @@
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>@Html.ActionLink("Sign up for news", "SignUpForNews")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
     <h2>Welcome page</h2>
     <hr />
-
-    <p>@Html.ActionLink("Sign up for news", "SignUpForNews")</p>
+    <div class="main-head">
+        <h1>Leader in a seafood</h1>
+    </div>
+    @*<p>@Html.ActionLink("Sign up for news", "SignUpForNews")</p>
     <p>@Html.ActionLink("Register", "Register", "Account")</p>
-    <p>@Html.ActionLink("Login", "Login", "Account")</p>
+    <p>@Html.ActionLink("Login", "Login", "Account")</p>*@
 </body>
 
 
