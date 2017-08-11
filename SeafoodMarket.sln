@@ -13,9 +13,6 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SeafoodMarket", "src\SeafoodMarket\SeafoodMarket.xproj", "{0AFBF00A-57B7-4D5F-8417-A7535CE5C71D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2D9BC408-7CBE-4F65-B8D0-FDFD47858CBC}"
-	ProjectSection(SolutionItems) = preProject
-		SeafoodMarketTest.cs = SeafoodMarketTest.cs
-	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SeafoodMarket1.Tests", "SeafoodMarket1.Tests\SeafoodMarket1.Tests.xproj", "{98B75B96-F7C2-488A-89C4-F589F97BB469}"
 EndProject

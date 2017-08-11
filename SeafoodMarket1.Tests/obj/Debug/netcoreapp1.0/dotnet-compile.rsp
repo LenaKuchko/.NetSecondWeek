@@ -207,4 +207,6 @@
 --reference:C:\Users\Elena\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
 --reference:C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\bin\Debug\netcoreapp1.0\SeafoodMarket.dll
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\SeafoodMarket1.Tests\Class1.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\SeafoodMarket1.Tests\ControllerTests\NewsletterControllerTest.cs
+C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\SeafoodMarket1.Tests\ModelTests\SeafoodMarketTest.cs
 C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\SeafoodMarket1.Tests\Properties\AssemblyInfo.cs

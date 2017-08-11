@@ -10,6 +10,7 @@ namespace SeafoodMarket.Tests
         {
             //Arrange
             var newsletter = new Newsletter();
+            newsletter.Email = "lena@gmail.com";
 
             //Act
             var result = newsletter.Email;
