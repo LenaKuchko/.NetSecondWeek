@@ -39,7 +39,7 @@ namespace SeafoodMarket.Controllers
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Login");
             }
             else
             {
@@ -62,7 +62,7 @@ namespace SeafoodMarket.Controllers
             }
             else
             {
-                return View("aeda");
+                return View();
             }
         }
 

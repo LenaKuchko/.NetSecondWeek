@@ -19,10 +19,10 @@ namespace SeafoodMarket.Controllers
 
         //to pass test needs to uncomment
 
-        public NewsletterController()
-        {
+        //public NewsletterController()
+        //{
 
-        }
+        //}
 
         public NewsletterController(UserManager<ApplicationUser> userManager, ApplicationDbContext db)
         {
