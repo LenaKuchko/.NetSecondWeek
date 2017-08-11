@@ -6,19 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using SeafoodMarket.ViewModels;
 using SeafoodMarket.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace SeafoodMarket.Controllers
 {
+    
     public class HomeController : Controller
     {
-        //private readonly ApplicationDbContext _db;
-
-        //public HomeController(ApplicationDbContext db)
-        //{
-        //    _db = db;
-        //}
-
-        private ApplicationDbContext db = new ApplicationDbContext();
         public IActionResult Index()
         {
             return View();
@@ -32,17 +26,12 @@ namespace SeafoodMarket.Controllers
         [HttpPost]
         public IActionResult SignUpForNews(SignUpForNewsViewModel model)
         {
+            var db = new ApplicationDbContext();
+
             var newsletter = new Newsletter(model.Email, model.Preference);
             db.Newsletters.Add(newsletter);
             db.SaveChanges();
             return View("Confirmation", newsletter);
-        }
-
-
-        //[Authorize]
-        public IActionResult ShowMailingList()
-        {
-            return View("ShowMailingList", db.Newsletters.ToList());
         }
     }
 }

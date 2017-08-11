@@ -7,8 +7,6 @@ using SeafoodMarket.Models;
 using Microsoft.AspNetCore.Identity;
 using SeafoodMarket.ViewModels;
 
-// For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace SeafoodMarket.Controllers
 {
     public class AccountController : Controller
@@ -64,7 +62,7 @@ namespace SeafoodMarket.Controllers
             }
             else
             {
-                return View();
+                return View("aeda");
             }
         }
 
