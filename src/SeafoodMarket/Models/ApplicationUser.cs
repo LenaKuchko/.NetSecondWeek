@@ -8,5 +8,6 @@ namespace SeafoodMarket.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        public string Preference { get; set; }
     }
 }
