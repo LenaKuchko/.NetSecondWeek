@@ -23,7 +23,6 @@
         <div class="row">
             <div class="col-md-12">
                 <ul>
-                    <li>@Html.ActionLink("Sign up for news", "SignUpForNews")</li>
                     <li>@Html.ActionLink("Register", "Register", "Account")</li>
                     <li>@Html.ActionLink("Login", "Login", "Account")</li>
                 </ul>
@@ -31,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel  slide">
                 <!-- Dot Indicators -->
@@ -72,7 +71,66 @@
         </div>
     </div>
     <h2>Congradulations, you are singed up for our news</h2>
+    <h3>We will send our latest news on this email: @Html.DisplayFor(model => model.Email)</h3>
+    <br />
     <hr />
-    <p>We will send our latest news on this email: @Html.DisplayFor(model => model.Email)</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="testiminial-block">
+                    <div class="row">
+                        <div class="col-md-3"><img src="http://library.urnerbarry.com/Images/Seafood News Images/snowcrab_quinlan.jpg" class="img-responsive img-rounded" /></div>
+                        <div class="col-md-9 news">
+                            <h3>Russian Crab Companies Delay Fishing Due to New Processing Rules; Crab Prices Rise</h3>
+                            <p>
+                                Crab season in Russia is under a threat of failure this year, due to the recently introduced ban of on-board processing of crabs caught within the Russian territorialwaters that extend out to 12 miles, initiated by the Russian government.
+                                The introduction of the ban has already resulted in massive protests of Russian leading crab producers in the Russian Far East, who prefer not to fish until the ban is lifted.
+                                According to state plans, on-shore crab processing will result in the establishment of additional processing capacities and will create new jobs.
+                            </p>
+                            <div class="testimonial-author">
+                                Author Name <span>(Ray Parker)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="testiminial-block">
+                    <div class="row">
+                        <div class="col-md-9 news">
+                            <h3>Baader supplying new Cermaq plant</h3>
+                            <p>Baader’s managing director Robert Focke is delighted that the company was chosen by Cermaq as the supplier 
+                            for its new state-of-the-art salmon processing plant in Norway.
+                            "Baader is proud to deliver a high-tech and cutting-edge plant for slaughtering and processing of salmon,“ Robert Focke said.
+                            Construction started in March this year on the new Cermaq salmon plant at Storskjæret in Norway,
+                            and the 8000 square metre factory is expected to start production in the second quarter of next year.
+                            According to Atle Kvist, project manager at Cermaq Norway, totality was an important consideration for the company.</p>
+                            <div class="testimonial-author">
+                                Author Name <span>(Ray Parker)</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="http://library.urnerbarry.com/Images/Seafood News Images/copperriverkingsalmon.jpg" class="img-responsive img-rounded" />
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="testiminial-block">
+                    <div class="row">
+                        <div class="col-md-3"><img src="https://s3.amazonaws.com/divcomplatform/seafoodsource.com/images/f35d4e2faa0d6fca1f3b94c0f055d605.jpeg" class="img-responsive img-rounded" /></div>
+                        <div class="col-md-9 news">
+                            <h3>Nurturing and supporting Scottish fisheries potential</h3>
+                            <p>Fisheries Innovation Scotland (FIS) is seeking applications for its latest set of development projects which include a Fisheries Innovation Award Competition, 
+                                a bursary to help career development and a feasibility study into self-sampling in the pelagic sector.</p>
+                            <p>The first of what is hoped will be an annual Fisheries Innovation Award Competition is open to everyone. It will focus on two areas: 
+                        Innovation in reducing the cost of catching fish/shellfish and innovation in improving the quality and value of the catch, both geared towards increasing profitability.</p>
+                            <div class="testimonial-author">
+                                Author Name <span>(Pete Smith)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
