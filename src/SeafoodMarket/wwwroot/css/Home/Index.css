@@ -19,3 +19,19 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block; }
 
+.main-head {
+  padding-top: 300px;
+  font-size: 70px;
+  color: snow;
+  font-weight: 400;
+  text-align: center; }
+
+.head-text {
+  padding-top: 70px;
+  font-size: 25px;
+  color: snow; }
+
+.company-name {
+  font-family: 'Playfair Display SC', 'MS PGothic';
+  font-size: 70px; }
+

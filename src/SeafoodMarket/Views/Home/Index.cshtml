@@ -10,7 +10,8 @@
         <link href="~/css/Home/Index.css" rel="stylesheet" />
     </environment>
     <environment names="Staging,Production">
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         @*<link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />*@
@@ -31,14 +32,23 @@
     </div>
     
 
-    <h2>Welcome page</h2>
+    <h2 class="company-name">Portland Fish Market</h2>
     <hr />
     <div class="main-head">
-        <h1>Leader in a seafood</h1>
+        - A Leader in seafood -
     </div>
     @*<p>@Html.ActionLink("Sign up for news", "SignUpForNews")</p>
     <p>@Html.ActionLink("Register", "Register", "Account")</p>
     <p>@Html.ActionLink("Login", "Login", "Account")</p>*@
+
+    <div>
+        <p class="head-text">We expect ourselves to do business right, to lead by example and to help out when we are needed. 
+        It is our company philosophy that guides our everyday decisions. It is good to be responsible, 
+        not just because it is the right thing to do, but because it also sets the bar for our company’s 
+        commitment to ensure that the communities in which we work and live will continue to prosper.</p>
+        <h2>@Html.ActionLink("Learn more about us", "About", "Home")</h2>
+
+    </div>
 </body>
 
 

@@ -8,6 +8,7 @@ body {
   background-image: url(http://superiorgrocers.com/_images/content/uploads/2013-11/11-01_Seafood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 ul {
     text-align: right;
@@ -30,4 +31,21 @@ a:link, a:visited {
 
 a:hover, a:active {
    
+}
+
+.main-head {
+    padding-top: 300px;
+    font-size: 70px;
+    color: snow;
+    font-weight:400;
+    text-align: center;
+}
+.head-text {
+    padding-top: 70px;
+    font-size: 25px;
+    color:snow;
+}
+.company-name {
+    font-family: 'Playfair Display SC', 'MS PGothic';
+    font-size: 70px;
 }

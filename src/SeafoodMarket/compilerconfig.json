@@ -2,5 +2,9 @@
   {
     "outputFile": "wwwroot/css/Home/Index.css",
     "inputFile": "wwwroot/css/Home/Index.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Account/Register.css",
+    "inputFile": "wwwroot/css/Account/Register.scss"
   }
 ]
