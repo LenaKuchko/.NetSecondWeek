@@ -41,7 +41,6 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div">
                                 @using (Html.BeginForm("Register", "Account", FormMethod.Post))
                                 {
                                     <div class="form-group  text-center">
@@ -57,7 +56,11 @@
                                         @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", required = "required" })
 
                                     </div>
-                                    <input class="form-control btn btn-register" type="submit" value="Register" />
+                                    <div style="text-align:center">
+                                        <input class="form-control btn btn-register" type="submit" value="Register" />
+
+                                        @Html.ActionLink("LATER ...", "Index", "Home")
+                                    </div>
                                 }
                             </div>
                         </div>

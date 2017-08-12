@@ -27,7 +27,9 @@
   font-weight: normal;
   padding: 14px 0;
   text-transform: uppercase;
-  border-color: #bf8167; }
+  border-color: #bf8167;
+  display: inline;
+  width: 107px; }
 
 .btn-register:hover,
 .btn-register:focus {
@@ -45,4 +47,19 @@
   background-position: 50% 50%;
   background-image: url("http://crystalcoveseafood.com/media/2013/10/bg3.jpg");
   background-repeat: repeat; }
+
+a:link, a:visited {
+  background-color: #f9a785;
+  color: white;
+  padding: 14.5px 25px 17px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border-radius: 4px;
+  border: 1px solid #bf8167;
+  height: 50px;
+  width: 70px; }
+
+a:hover, a:active {
+  background-color: #c38064; }
 
