@@ -1,7 +1,6 @@
 ﻿@using SeafoodMarket.ViewModels
 @model SignUpForNewsViewModel
 
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,44 +15,22 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
         asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
         asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        @*<link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />*@
     </environment>
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div id="myCarousel" class="carousel  slide">
-            <!-- Dot Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Items -->
-            <div class="carousel-inner">
-                <div class="active item"> <img src="~/images/crabs2.jpg" class="img-carousel"/>
-                    <h2 class="text-carousel"><span>Russian Crab Companies Delay<br />Fishing Due to New Processing Rules. Crab Prices Rise</span></h2>
-                    
-                </div>
-                <div class="item">
-                    <img src="~/images/ship2.jpg" class="img-carousel" />
-                    <h2 class="text-carousel"><span>Russian Crab Companies Delay<br />Fishing Due to New Processing Rules. Crab Prices Rise</span></h2>
-
-                </div>
-                <div class="item">  <img src="~/images/crabs.jpg"  class="img-carousel"/></div>
-                <div class="item"> <img src="~/images/lobsters2.jpg" class="img-carousel"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>@Html.ActionLink("Sign up for news", "SignUpForNews")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                </ul>
             </div>
-            <!-- Navigation -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
         </div>
     </div>
-</div>
+
     <div>
         @using (Html.BeginForm("SignUpForNews", "Home", FormMethod.Post))
         {

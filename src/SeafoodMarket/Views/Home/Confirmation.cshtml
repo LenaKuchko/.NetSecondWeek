@@ -1,14 +1,78 @@
 ﻿@model SeafoodMarket.Models.Newsletter
 
-@{
-    ViewData["Title"] = "To Do List - Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeafoodMarket</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link href="~/css/Home/Confirmation.css" rel="stylesheet" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+        asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    </environment>
+    @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
+</head>
 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>@Html.ActionLink("Sign up for news", "SignUpForNews")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                </ul>
+                    <hr />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="myCarousel" class="carousel  slide">
+                <!-- Dot Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Items -->
+                <div class="carousel-inner">
+                   
+                    <div class="active item">
+                        <img src="~/images/crabs2.jpg" class="img-carousel" />
+                        <h2 class="text-carousel news-one"><span>Russian Crab Companies Delay<br />Fishing Due to New Processing Rules. Crab Prices Rise</span></h2>
+
+                    </div>
+                    <div class="item">
+                        <img src="~/images/ship2.jpg" class="img-carousel" />
+                        <h2 class="text-carousel news-two"><span>Southeast Alaska <br />Dungeness Fishery Worst in Decades</span></h2>
+                    </div>
+                    <div class="item">
+                        <img src="~/images/crabs.jpg" class="img-carousel" />
+                        <h2 class="text-carousel news-three"><span> The commercial harvest for Dungeness<br />crab in Southeast Alaska this summer was the smallest in several decades.</span></h2>
+                    </div>
+                    <div class="item">
+                        <img src="~/images/lobsters2.jpg" class="img-carousel">
+                        <h2 class="text-carousel news-four"><span>Qingdao Clears Live Lobsters from <br />Canada in 40 Minutes</span></h2>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
     <h2>Congradulations, you are singed up for our news</h2>
     <hr />
-    <p>@Html.DisplayNameFor(model => model.Email): @Html.DisplayFor(model => model.Email)</p>
-     <p>@Html.DisplayNameFor(model => model.Preference): @Html.DisplayFor(model => model.Preference)</p>
+    <p>We will send our latest news on this email: @Html.DisplayFor(model => model.Email)</p>
 
 </body>

@@ -10,5 +10,13 @@
   {
     "outputFile": "wwwroot/css/Home/SignUpForNews.css",
     "inputFile": "wwwroot/css/Home/SignUpForNews.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Account/Login.css",
+    "inputFile": "wwwroot/css/Account/Login.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Home/Confirmation.css",
+    "inputFile": "wwwroot/css/Home/Confirmation.scss"
   }
 ]

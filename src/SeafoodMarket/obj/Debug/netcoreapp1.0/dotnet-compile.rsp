@@ -1,5 +1,5 @@
---temp-output:C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\obj\Debug\netcoreapp1.0\
---out:C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\bin\Debug\netcoreapp1.0\SeafoodMarket.dll
+--temp-output:C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\bin\Debug\netcoreapp1.0\SeafoodMarket.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -212,20 +212,20 @@
 --reference:C:\Users\Elena\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Elena\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Elena\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\obj\Debug\netcoreapp1.0\SeafoodMarketdotnet-compile.deps.json",SeafoodMarket.deps.json
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Program.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Startup.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\AccountController.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\HomeController.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\NewsletterController.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811182901_Initial.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811182901_Initial.Designer.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811190444_NewsletterTable.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811190444_NewsletterTable.Designer.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationDbContext.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationUser.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\Newsletter.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\LoginViewModel.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\RegisterViewModel.cs
-C:\Users\Elena\Documents\Visual Studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\SignUpForNewsViewModel.cs
+--resource:"C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\obj\Debug\netcoreapp1.0\SeafoodMarketdotnet-compile.deps.json",SeafoodMarket.deps.json
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Program.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Startup.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\AccountController.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\HomeController.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Controllers\NewsletterController.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811182901_Initial.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811182901_Initial.Designer.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811190444_NewsletterTable.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\20170811190444_NewsletterTable.Designer.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationDbContext.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\ApplicationUser.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\Models\Newsletter.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\LoginViewModel.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\RegisterViewModel.cs
+C:\Users\Elena\documents\visual studio 2015\Projects\SeafoodMarket\src\SeafoodMarket\ViewModels\SignUpForNewsViewModel.cs

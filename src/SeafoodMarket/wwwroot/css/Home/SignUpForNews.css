@@ -1,50 +1,18 @@
-﻿.carousel {
-  overflow: hidden; }
-
-.carousel .item {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s; }
-
-.carousel .active.left, .carousel .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 2; }
-
-.carousel .next, .carousel .prev {
-  left: 0;
-  opacity: 1;
-  z-index: 1; }
-
-.item:nth-child(1) {
-  background: darkred; }
-
-.item:nth-child(2) {
-  background: red; }
-
-.item:nth-child(3) {
-  background: orange; }
-
-.img-carousel {
-  position: relative; }
-
-.text-carousel {
-  position: absolute;
-  top: 200px;
+﻿ul {
+  margin-top: 50px;
   text-align: right;
-  width: 100%;
-  color: snow;
-  padding-right: 200px;
-  left: 100px; }
+  margin-right: -50px; }
+  ul li {
+    display: inline;
+    font-size: 20px;
+    padding-right: 20px; }
 
-h2 span {
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background: black;
-  /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px; }
+a:link, a:visited {
+  color: #3F4045;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }
+
+body {
+  background-color: snow; }
 
