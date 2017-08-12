@@ -31,18 +31,46 @@
         </div>
     </div>
 
-    <div>
-        @using (Html.BeginForm("SignUpForNews", "Home", FormMethod.Post))
-        {
 
-            @Html.LabelFor(m => m.Email)
-            @Html.TextBoxFor(m => m.Email)
+    <div class="header-text hidden-xs">
+        <div class="col-md-12 text-center">
+            <h2>
+                <span>Sign up <strong>For our news</strong></span>
+            </h2>
+            <br>
+            <h3>
+                <span>Our latest news always with you</span>
+            </h3>
+            <br>
 
-            @Html.LabelFor(m => m.Preference)
-            @Html.TextBoxFor(m => m.Preference)
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-5 form-sign-up">
+                        @using (Html.BeginForm("SignUpForNews", "Home", FormMethod.Post))
+                        {
+                            <div class="form-group  text-center">
+                                @Html.LabelFor(m => m.Email)
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required" })
+                            </div>
+                            <div class="form-group  text-center">
+                                @Html.LabelFor(m => m.Preference)
+                                @Html.PasswordFor(m => m.Preference, new { @class = "form-control", required = "required" })
+                            </div>
+                            <input class="btn btn-theme btn-sm btn-min-block" type="submit" value="Sign up" class="btn btn-default" />
+                        }
+                    </div>
+                </div>
+            </div>
 
-            <input type="submit" value="Sign up" class="btn btn-default" />
-        }
-    </div>
+            <div class="">
+                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a>
+            </div>
+        </div>
+    </div><!-- /header-text -->
+    
+
+
+
+    
 
 </body>
