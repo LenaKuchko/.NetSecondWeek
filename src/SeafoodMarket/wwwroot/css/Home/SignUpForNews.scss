@@ -65,5 +65,24 @@
 }
 .form-sign-up {
     text-align: center;
-}
+   
 
+}
+ input[type="text"]
+ {
+     background-color:snow;
+     height: 45px;
+     border: 1px solid #ddd;
+     font-size: 20px;
+     transition: all 0.1s linear;
+     
+ }
+.sign-up-news {
+    color:#2980b9;
+    font-size: 25px;
+    
+}
+.sign-up {
+    font-size: 15px;
+    font-weight: 600;
+}

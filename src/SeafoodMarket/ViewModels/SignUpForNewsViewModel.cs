@@ -10,10 +10,10 @@ namespace SeafoodMarket.ViewModels
     {
         [Required]
         [EmailAddress]
-        [Display(Name = "Email")]
+        [Display(Name = "Enter your email")]
         public string Email { get; set; }
 
-        [Display(Name = "Your favorite kind of seafood")]
+        [Display(Name = "Your favorite seafood")]
         public string Preference { get; set; }
     }
 }

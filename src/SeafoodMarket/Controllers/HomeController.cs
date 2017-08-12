@@ -33,5 +33,10 @@ namespace SeafoodMarket.Controllers
             db.SaveChanges();
             return View("Confirmation", newsletter);
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
