@@ -6,5 +6,9 @@
   {
     "outputFile": "wwwroot/css/Account/Register.css",
     "inputFile": "wwwroot/css/Account/Register.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Home/SignUpForNews.css",
+    "inputFile": "wwwroot/css/Home/SignUpForNews.scss"
   }
 ]
